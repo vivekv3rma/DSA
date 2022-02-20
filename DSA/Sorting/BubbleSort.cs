@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace DSA.Sorting
 {
-    internal class BubbleSort
+    internal class BubbleSort : ISort
     {
-        public void sort(int[] arr)
+        public override void sort(int[] arr)
         {
             for(int i = 0; i < arr.Length; i++)
             {

@@ -7,23 +7,27 @@ namespace DSA
     {
         static void Main(string[] args)
         {
-            testBubbleSort();
+            int[] arr = { 10, 2, 4, 1, 11, 24, 12 };
+            int[] arr1 = { 1, 2, 3, 4, 5, 6 };
+
+            
+            //Console.WriteLine("Testing bubble sort");
+            //BubbleSort bubbleSort = new();
+            //testSorting(bubbleSort, arr);
+            //testSorting(bubbleSort, arr1);
+
+            Console.WriteLine("Testing insertion sort");
+            InsertionSort insertionSort = new();
+            testSorting(insertionSort, arr);
+            testSorting(insertionSort, arr1);
+
         }
 
-        static void testBubbleSort()
+        static void testSorting(ISort sortObj, int[] arr)
         {
-            BubbleSort sort = new();
-            int[] arr = { 10, 2, 4, 1, 11, 24, 12 };
             Utility.printArray(arr);
-            sort.sort(arr);
+            sortObj.sort(arr);
             Utility.printArray(arr);
-            
-            //testing sorted array
-            int[] arr1= { 1,2,3,4,5,6};
-            Utility.printArray(arr1);
-            sort.sort(arr1);
-            Utility.printArray(arr1);
-
         }
     }
 }
