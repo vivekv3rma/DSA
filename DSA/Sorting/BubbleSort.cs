@@ -8,7 +8,12 @@ namespace DSA.Sorting
 {
     internal class BubbleSort : ISort
     {
-        public override void sort(int[] arr)
+        /*
+         * Time Complexity - O(n2)
+         * Space Complexity - 
+         * Stable sorting algo
+         */
+        public void sort(int[] arr)
         {
             for(int i = 0; i < arr.Length; i++)
             {

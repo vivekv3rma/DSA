@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DSA.Sorting
+namespace DSA.Searching
 {
-    internal interface ISort
+    internal interface ISearch
     {
-        public void sort(int[] arr);
+        public int search(int[] arr, int a);
     }
 }
