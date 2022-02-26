@@ -23,5 +23,15 @@ namespace DSA
             }
             Console.WriteLine();
         }
+
+        public static void print2DArray(int[][] arr)
+        {
+            for (int i = 0; i < arr.Length; i++)
+            {
+                for (int j = 0; j < arr[i].Length; j++)
+                    Console.Write(arr[i][j] + " ");
+                Console.WriteLine();
+            }
+        }
     }
 }
