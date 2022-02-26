@@ -11,6 +11,7 @@ namespace DSA
             int[] arr = { 10, 2, 4, 1, 11, 24, 12 };
             int[] arr1 = { 1, 2, 3, 4, 5, 6 };
 
+            int[,] arr2 = new int[3,3] { { 1, 2, 3 }, { 4, 5, 6 }, { 6, 7, 8 } }; ;
 
             //Console.WriteLine("Testing bubble sort");
             //BubbleSort bubbleSort = new();
@@ -25,6 +26,8 @@ namespace DSA
             Console.WriteLine("Testing binary search");
             BinarySearch binarySearch = new();
             testSearching(binarySearch, arr1, 11);
+
+            binarySearch.search(arr2, 5);
         }
 
         static void testSearching(ISearch searchObj, int[] arr, int a)

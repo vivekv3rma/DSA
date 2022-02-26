@@ -9,5 +9,8 @@ namespace DSA.Searching
     internal interface ISearch
     {
         public int search(int[] arr, int a);
+
+        public int[] search(int[][] arr, int a); 
+       
     }
 }
