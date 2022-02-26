@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DSA.Searching
 {
-    internal class BinarySearch : ISearch
+    public class BinarySearch : ISearch
     {
         /// <summary>
         /// Time Complexity = O(logn)

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DSA.Sorting
 {
-    internal class InsertionSort : ISort
+    public class InsertionSort : ISort
     {
         /*
          * Time Complexity - O(n2)

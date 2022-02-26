@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DSA.Sorting
 {
-    internal class BubbleSort : ISort
+    public class BubbleSort : ISort
     {
         /*
          * Time Complexity - O(n2)

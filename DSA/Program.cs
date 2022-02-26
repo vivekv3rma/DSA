@@ -11,7 +11,11 @@ namespace DSA
             int[] arr = { 10, 2, 4, 1, 11, 24, 12 };
             int[] arr1 = { 1, 2, 3, 4, 5, 6 };
 
-            int[,] arr2 = new int[3,3] { { 1, 2, 3 }, { 4, 5, 6 }, { 6, 7, 8 } }; ;
+            int[][] arr2 = new int[3][];
+            arr2[0] = new int[]{ 1, 2, 3 };
+            arr2[1] = new int[] { 4, 5, 6 };
+            arr2[2] = new int[] { 7, 8, 9 };
+
 
             //Console.WriteLine("Testing bubble sort");
             //BubbleSort bubbleSort = new();

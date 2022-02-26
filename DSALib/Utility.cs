@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DSA
 {
-    internal static class Utility
+    public static class Utility
     {
         public static void swapArrayElements(int[] arr, int i, int j)
         {

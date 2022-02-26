@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DSA.Sorting
 {
-    internal interface ISort
+    public interface ISort
     {
         public void sort(int[] arr);
     }
